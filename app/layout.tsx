@@ -13,7 +13,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body className="bg-[url('/dirt.png')] bg-repeat bg-size-[80px] rendering" style={{ imageRendering: "pixelated" }}>{children}</body>
     </html>
   );
 }
